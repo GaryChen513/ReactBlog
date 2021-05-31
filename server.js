@@ -8,7 +8,12 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/codingblog");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/codingblog", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
+});
 
 const sess = {
   secret: "mysecret",
