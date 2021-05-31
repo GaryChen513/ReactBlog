@@ -1,0 +1,18 @@
+.app-archive {
+  padding: 40px 20px;
+}
+
+.app-archive .desc {
+  font-weight: 600;
+}
+
+.app-archive .year {
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  top: -4px;
+}
+
+.app-archive .ant-timeline-item {
+  font-size: 15px;
+}

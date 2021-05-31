@@ -1,0 +1,45 @@
+.header {
+  padding: 0;
+  background: rgba(255, 255, 255, 0.99);
+  -webkit-box-shadow: 0 2px 8px #f0f1f2;
+  box-shadow: 0 2px 8px #f0f1f2;
+  position: relative;
+  max-width: 100%;
+}
+
+.header #logo {
+  text-align: center;
+  margin: auto;
+  color: #7c795d;
+  font-family: "Trocchi", serif;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.header .search-icon {
+  color: #ced4d9;
+  position: relative;
+  top: 0.3px;
+  cursor: pointer;
+  padding-right: 3px;
+}
+
+.header .search-input {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.header .right {
+  position: relative;
+}
+.header .navbar {
+  border: 0;
+  font-variant: tabular-nums;
+}
+
+.header .header-userInfo {
+  float: right;
+  padding: 0 40px 0 16px;
+}

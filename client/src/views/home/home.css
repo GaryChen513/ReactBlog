@@ -1,0 +1,52 @@
+.app-home {
+  height: calc(100vh - 64px - 40px);
+  overflow-y: auto;
+}
+
+.app-home .app-home-list {
+  width: calc(100% - 50px);
+}
+
+.app-home .app-home-list-item {
+  position: relative;
+  border: 1px solid #ebedf0;
+  padding: 16px 24px;
+  margin-bottom: 10px;
+  transition: all 0.2s linear;
+}
+
+.app-home .app-home-list-item:hover {
+  background: #effbff;
+  cursor: pointer;
+  box-shadow: 0px 15px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.app-home .app-home-list-item .title {
+  color: #394d69;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.app-home .app-home-list-item .title:hover {
+  color: #48b2ff;
+}
+
+.app-home .app-home-list-item .posted-time {
+  font-size: 0.5em;
+  padding-left: 20px;
+}
+
+.app-home .app-home-list-item .content {
+  cursor: pointer;
+  max-height: 260px;
+  overflow: hidden;
+}
+
+.app-home .app-home-list-item .list-item-others {
+  text-align: left;
+  vertical-align: middle;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.45);
+}

@@ -1,0 +1,27 @@
+.app-topics .title {
+  font-size: 1.7em;
+  text-align: center;
+  word-break: break-word;
+  font-weight: 400;
+}
+
+.app-topics .topic-all-title {
+  font-size: 14px;
+  line-height: 2;
+  color: #555;
+  text-align: center;
+}
+
+.app-topics .topic-list {
+  text-align: center;
+  padding: 20px 80px;
+}
+
+.app-topics .ant-badge {
+  margin: 10px 26px 0 0;
+  z-index: 2;
+}
+
+.app-topics a {
+  color: inherit;
+}
